@@ -1,0 +1,11 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Artificial Intelligence in Law}{4}
+\contentsline {subsection}{\numberline {2.1}AI in writing}{4}
+\contentsline {subsection}{\numberline {2.2}SmartApps (Expert Systems)}{5}
+\contentsline {section}{\numberline {3}Concept Clustering}{6}
+\contentsline {subsection}{\numberline {3.1}Different Types of clusterings}{6}
+\contentsline {subsection}{\numberline {3.2}Different types of clusters}{7}
+\contentsline {subsection}{\numberline {3.3}Popular techniques in cluster analysis}{7}
+\contentsline {section}{\numberline {4}Document Assembly System}{8}
+\contentsline {section}{References}{9}

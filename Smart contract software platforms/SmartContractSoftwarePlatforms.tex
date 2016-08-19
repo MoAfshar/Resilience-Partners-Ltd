@@ -1,0 +1,142 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper]{geometry}
+\usepackage[myheadings]{fullpage}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{graphicx, wrapfig, subcaption, setspace, booktabs}
+\usepackage[T1]{fontenc}
+\usepackage[font=small, labelfont=bf]{caption}
+\usepackage{fourier}
+\usepackage[protrusion=true, expansion=true]{microtype}
+\usepackage[english]{babel}
+\usepackage{sectsty}
+\usepackage{url, lipsum}
+
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+\onehalfspacing
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+%-------------------------------------------------------------------------------
+% HEADER & FOOTER
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+% TITLE PAGE
+%-------------------------------------------------------------------------------
+
+\begin{document}
+
+\title{ \normalsize \textsc{Desktop Research}
+		\\ [2.0cm]
+		\HRule{0.5pt} \\
+		\LARGE \textbf{\uppercase{A review of current smart contract platforms}}
+		\HRule{2pt} \\ [0.5cm]
+		\normalsize \today \vspace*{5\baselineskip}}
+
+\date{}
+
+\author{
+		Resilience Partners Ltd \\ 
+		Mo Afshar\\
+				 }
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+%-------------------------------------------------------------------------------
+% Section title formatting
+\sectionfont{\scshape}
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+% BODY
+%-------------------------------------------------------------------------------
+
+\section{Introduction}
+According to wikipedia Smart contracts are computer protocols that facilitate, verify, or enforce the negotiation or performance of a contract, or that make contractual clause unnecessary. The usually have a user interface and often emulate the logic of contractual clauses. They aim to provide security better than traditional contract law and reduce transaction costs associated with contracting. 
+\newline
+\newline
+The phrase "smart contracts" was coined by legal theorist computer scientist Nick Szabo and his description was: "A smart contract is a computerized transaction protocol that executes the terms of a contract. The general objectives are to satisfy common contractual conditions (such as payment terms, liens, confidentiality, and even enforcement), minimize exceptions both malicious and accidental, and minimize the need for trusted intermediaries. Related economic goals include lowering fraud loss, arbitrations and enforcement costs, and other transaction costs."
+\newline
+\newline 
+However as Josh Stark a lawyer and head of operations and legal at Ledger Labs has stated if we are talking about to identify a specific technology - code that is stored, verified and executed on a blockchain, we can call this definition "smart contract code". Other time if we are talking about specific application of that technology, as a complement or a substitute for legal contracts then we can name these smart legal contracts. By doing so we can easily answer questions like: what are the capabilities of a smart contract? By doing so we are able to answers these questions in a more suitable manner. 
+\newpage
+
+\section{Blockchain and Bitcoin}
+Blockchain is a distributed database that maintains a continuously growing list of data records hardened against tampering and revision. It is a data structure that makes it possible to create a digital ledger of transactions and share it among distributed network of computers. It uses cryptography to allow each participant on the network to manipulate the ledger in a secure way without the need for a central authority. Once  a block of data is recorded and stored it is very difficult to change or remove it, if for example someone wants to add to the data, the people in the network run algorithms to evaluate and verify the proposed transaction. If the majority agree then the transaction is valid and the new transaction will be approved and added. 
+\newline
+\newline
+The blockchain is seen as the main technical innovation of Bitcoin, where it serves as the public ledger of all Bitcoin transactions. Bitcoin is a form of digital currency created and held electronically, no one controls it. They are transferred directly from person to person via the net, without using a bank, which means the fees are much less, you can use it in any country, your account wont be frozen and there are no arbitrary limits which can affect you. 
+
+\newpage
+
+\section{Smart Contract Software Platforms}
+Below I will be looking at some of the software platforms that companies are using in conjunction with smart contracts. 
+
+\subsection{Ethereum}
+According to \url{www.ethereum.org} Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference. The apps run on a custom built blockchain as this enables developers to create markets, store registries of debts or promises, move funds all without a middle man. Using this platform anyone can set up a node that replicates the necessary data for all nodes to an agreement and be compensated by user and app developers. This allows user data to remain private and apps to be decentralized. 
+\newline
+\newline
+Ethereum introduces Mix IDE for the blockchain era. Mix is a full IDE for the Ethereum network. You are able to develop and write smart contracts and closely inspect the compiled code. Furthermore, Ethereum introduces Solidity which is a high level language whose syntax is similar to that of Javascript and it is designed to compile code for the Ethereum Virtual Machine. You are able to create contracts for voting, multi signature wallets and more. An extensive documentation can be viewed at: \url{https://solidity.readthedocs.io/en/latest/index.html}
+
+\subsection{Eris industries}
+Eris is a free software that allows you to build your own secure, low-cost, run-anywhere application using blockchain and smart contract technology. Eris enables you to Install the complete platform and deploy your own custom blockchain or connect to an existing one to develop sophisticated financial or legal applications. You can also build and run the application using smart contract templates and a simple, web-based user interfaceAn extensive documentation can be viewed at: \url{https://docs.erisindustries.com/}
+\newline
+\newline
+The documentation includes a wide variety of tutorials explaining the Eris Stack, Eris Platform and its components, Using Eris such as interacting with your own smart contracts and more in depth tutorials such as writing your own smart contracts. 
+
+\subsection{Codius}
+Codius is an open hosting protocol, it makes it very easy to upload program, whether you want it o run on one host or thousands. It lets you turn your service into a peer-to-peer network and it can work with decentralized apps. Furthermore, when two people transact, they could write the terms of their transaction into code but neither of them might trust the other to run it, Codius allows a third party to run it and attest to the integrity of the exact code it received. 
+\newline
+\newline
+Smart contracts run on Codius can hold assest in one or multiple math-based distributed ledgers, such as Bitcoin and Ripple, it can collect information from any source connected to the Internet and be written in standard programming languages. Depending on the security model required for a particular smart contract, the contracting parties can select the host . An extensive documentation can be viewed at: \url{https://codius.org/docs/using-codius/getting-started}
+
+\subsection{Counterparty}
+The Counterpart protocol is open source and extensively tested platform allowing users to create and trade any kind of digital toke, it also enables you to write specific digital agreements (smart contracts) and execute them on the Bitcoin blockchain. 
+\newline
+\newline
+By implementing Ethereums entire smart contract platform Counterparty enables users to write Turing Complete smart contracts into the Bitcoin blockchain and execute those in a completely decentralized manner. Counterparty support both the languages Solidity and Serpent which can be used to write smart contracts. An extensive documentation can be viewed at: \url{http://counterparty.io/docs/}
+
+
+
+%-------------------------------------------------------------------------------
+% REFERENCES
+%-------------------------------------------------------------------------------
+\newpage
+\section*{References}
+\addcontentsline{toc}{section}{References}
+
+\url{https://en.wikipedia.org/wiki/Smart_contract}> [Accessed July 2016]
+\newline
+\newline
+
+Josh Stark 2016. \textit{making sense smart contracts,} [online] Available at: <\url{http://www.coindesk.com/making-sense-smart-contracts/}> [Accessed July 2016]
+\newline
+\newline
+
+Wikipedia \textit{Blockchain (database)} [online] Available at: <\url{https://en.wikipedia.org/wiki/Blockchain_(database)}> [Accessed July 2016]
+\newline
+\newline
+
+ \textit{Ethereum} [online] Available at: <\url{https://www.ethereum.org/}> [Accessed July 2016]
+\newline
+\newline
+
+ \textit{Codius} [online] Available at: <\url{https://codius.org/}> [Accessed July 2016]
+\newline
+\newline
+
+ \textit{Counterparty} [online] Available at: <\url{http://counterparty.io}> [Accessed July 2016]
+\newline
+\newline
+
+
+
+
+\end{document}
+
+

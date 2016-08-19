@@ -1,0 +1,9 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Blockchain and Bitcoin}{4}
+\contentsline {section}{\numberline {3}Smart Contract Software Platforms}{5}
+\contentsline {subsection}{\numberline {3.1}Ethereum}{5}
+\contentsline {subsection}{\numberline {3.2}Eris industries}{5}
+\contentsline {subsection}{\numberline {3.3}Codius}{6}
+\contentsline {subsection}{\numberline {3.4}Counterparty}{6}
+\contentsline {section}{References}{7}
